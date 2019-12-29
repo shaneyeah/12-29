@@ -35,6 +35,7 @@ enum Conj
     is
 
 };
+
 class Block
 {
     public:
@@ -45,8 +46,7 @@ class Block
     bool pu; //pushstate
     bool snk; //sinkstate
     bool stp; //stoptstate
-    bool opn; //openstate
-    bool sht; //shutstate
+    bool isyou;
     int x,y;
 };
-*/
+
